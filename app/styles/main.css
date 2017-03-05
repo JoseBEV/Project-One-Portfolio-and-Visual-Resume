@@ -4,6 +4,14 @@ body {
   color: #fff;
 }
 
+/*fullpage*/
+
+
+
+#section1 {
+  margin-top: -10px;
+}
+
 button.btn {
   margin-top: 40px;
   background: #66bb6a;
@@ -26,8 +34,12 @@ button.btn {
   margin-top: 20px;
 }
 
+.name {
+  margin-top: 50px;
+}
+
 p {
-  margin-bottom: 30px;
+  margin-top: -30px;
 }
 
 #fp-nav ul li a span {
@@ -42,8 +54,93 @@ img {
   max-width: 100%;
 }
 
+.clouds {
+  margin-top: -20px;
+}
+
 .cloud2 {
   max-width: 100%;
   max-height: 100%;
   padding-left: 50px;
 }
+
+.cloudy {
+  margin-top: -90px;
+}
+
+.big-cloud {
+  margin-top: -90px;
+}
+
+.sheep {
+  margin-top: -70px;
+}
+
+#ucf {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#svad {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#degree {
+  max-width: 25%;
+  max-height: 25%;
+  padding-bottom: 20px;
+}
+
+.location {
+  margin-top: 50px;
+}
+
+/* animate.css*/
+
+.bounce {
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-iteration-count: 3;
+}
+
+
+.cloud-2 {
+  animation-duration: 1s;
+  animation-delay: 0.125s;
+}
+
+.cloud-3 {
+  animation-duration: 1s;
+  animation-delay: 0.25s;
+}
+
+.cloud-4 {
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+}
+
+.cloud-5 {
+  animation-duration: 1s;
+  animation-delay: 1s;
+}
+
+/* d3.js*/
+
+.bubbleChart {
+      min-width: 100px;
+      max-width: 700px;
+      height: 700px;
+      margin: 0 auto;
+}
+.bubbleChart svg{
+      background: #000000;
+}
+
+
+
+
+
+
+
+
