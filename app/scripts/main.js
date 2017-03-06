@@ -45,6 +45,10 @@ console.log('\'Allo \'Allo!');
     $('.sheepy').toggleClass('animated bounce');
    });
 
+  // portfolio
+
+   $('.carousel').carousel();
+
   // d3
 
   var bubbleChart = new d3.svg.BubbleChart({
