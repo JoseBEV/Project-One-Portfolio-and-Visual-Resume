@@ -1,12 +1,24 @@
 
+nav {
+    background-color: #50b8e7;
+}
+
+@font-face { 
+  font-family: "cloudee"; 
+  src: url('../fonts/Kingthings Bloone!.TTF');
+}
+
+.brand-logo {
+  color: white;
+  font-family: "cloudee";
+}
+
 body {
   font: normal 2em/1.5em "Helvetica Neue", Arial, sans-serif;
   color: #fff;
 }
 
 /*fullpage*/
-
-
 
 #section1 {
   margin-top: -10px;
@@ -19,19 +31,23 @@ button.btn {
 }
 
 .first {
-    background-color: #66bb6a;
+    background-color: #75d5e3;
   }
 
-.second, .fourth {
-    background-color: #424242;
+.second {
+    background-color: #8ae5ff;
   }
 
 .third {
-    background-color: #a5d6a7;
+    background-color: #acf5fb;
   }
 
-.fourth button {
-  margin-top: 20px;
+.fourth {
+    background-color: #c3fbf9;
+}
+
+.fifth {
+    background-color: #cdf9ff;
 }
 
 .name {
@@ -140,16 +156,15 @@ img {
   max-width: 100%;
 }
 
+#contact {
+  margin-top: -30px;
+  margin-left: 165px;
+}
+
 /* d3.js*/
 
-.bubbleChart {
-      min-width: 100px;
-      max-width: 700px;
-      height: 700px;
-      margin: 0 auto;
-}
-.bubbleChart svg{
-      background: #000000;
+#funnel { 
+  margin-left: -100px; 
 }
 
 

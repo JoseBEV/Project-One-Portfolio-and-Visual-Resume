@@ -9,10 +9,7 @@
     "animate.css": "^3.5.2",
     "fullpage.js": "^2.9.2",
     "textillate": "^0.4.0",
-    "d3-transform": "^1.0.4",
-    "cafej": "*",
-    "microplugin": "^0.0.3",
-    "bubble-chart": "*"
+    "d3-funnel": "^1.0.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
